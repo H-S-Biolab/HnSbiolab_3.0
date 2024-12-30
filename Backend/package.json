@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.688.0",
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "easycodef-node": "^1.0.4",
+    "express": "^4.21.1",
+    "meilisearch": "^0.44.1",
+    "mongodb": "^6.9.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
