@@ -150,8 +150,9 @@
 ---
 
 ## 👤 사용자 다이어그램
-
-![Frame.png](readme_assets/Frame.png)
+<div align="center">
+  <img src="readme_assets/Frame.png" width="100%" />
+</div>
 
 ## 🏗️ 앱 구성도
 
