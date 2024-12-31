@@ -91,8 +91,8 @@
 키트 검사의 결과를 반환받아서 DB에 저장합니다.
 
 <div align="center">
-  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_015.jpeg" width="25%" />
-  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_016.jpeg" width="25%" />
+  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_015.jpeg" width="20%" />
+  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_016.jpeg" width="20%" />
 </div>
 
 ### 2. 건강검진 불러오기
@@ -102,8 +102,8 @@
 불러온 결과를 분석하고, 신장병과 긴밀히 연관된 기저질환·성인병 분석도 진행할 예정입니다.
 
 <div align="center">
-  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_023.jpeg" width="25%" />
-  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_018.jpeg" width="25%" />
+  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_023.jpeg" width="20%" />
+  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_018.jpeg" width="20%" />
 </div>
 
 ### 3. 혈액검사 기록하기
@@ -112,8 +112,8 @@
 앱에서 혈액검사 결과를 기록하고, 분석 결과를 제공합니다.
 
 <div align="center">
-  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_023.jpeg" width="25%" />
-  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_022.jpeg" width="25%" />
+  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_023.jpeg" width="20%" />
+  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_022.jpeg" width="20%" />
 </div>
 
 ### 4. 나의 콩팥 건강 분석
@@ -122,8 +122,8 @@
 사용자의 콩팥 기능을 종합 분석합니다.
 
 <div align="center">
-  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_006.jpeg" width="25%" />
-  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_009.jpeg" width="25%" />
+  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_006.jpeg" width="20%" />
+  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_009.jpeg" width="20%" />
 </div>
 
 ### 5. 데일리 체크
@@ -132,8 +132,8 @@
 3개 이상 위험 신호가 감지되면 키트 검사를 유도합니다.
 
 <div align="center">
-  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_006.jpeg" width="25%" />
-  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_010.jpeg" width="25%" />
+  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_006.jpeg" width="20%" />
+  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_010.jpeg" width="20%" />
 </div>
 
 ### 6. 투석 병원 검색
@@ -143,13 +143,20 @@
 자주 찾는 병원은 즐겨찾기로 지정할 수 있습니다.
 
 <div align="center">
-  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_024.jpeg" width="25%" />
-  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_025.jpeg" width="25%" />
+  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_024.jpeg" width="20%" />
+  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_025.jpeg" width="20%" />
 </div>
 
 ### 7. 의약품 검색
+**[식품의약품안전처 의약품 데이터](https://www.data.go.kr/data/15075057/openapi.do)를 바탕**으로<br/>의약품을 검색할 수 있습니다.<br/>[대한약사협회 신장병 위해 성분 정보](https://www.health.kr/Menu.PharmReview/_uploadfiles/Safety%20Report_%EC%8B%A0%EC%9E%A5%EC%97%90%20%EC%98%81%ED%96%A5%EC%9D%84%20%EB%AF%B8%EC%B9%98%EB%8A%94%20%EC%95%BD%EB%AC%BC%20%EC%95%88%EC%A0%84%EC%84%B1%20%EC%A0%95%EB%B3%B4.pdf)도 참고하여,<br/>어떤 의약품이 신장에 해로운지 안내합니다.
 
-| **[식품의약품안전처 의약품 데이터](https://www.data.go.kr/data/15075057/openapi.do)를 바탕**으로<br/>의약품을 검색할 수 있습니다.<br/>[대한약사협회 신장병 위해 성분 정보](https://www.health.kr/Menu.PharmReview/_uploadfiles/Safety%20Report_%EC%8B%A0%EC%9E%A5%EC%97%90%20%EC%98%81%ED%96%A5%EC%9D%84%20%EB%AF%B8%EC%B9%98%EB%8A%94%20%EC%95%BD%EB%AC%BC%20%EC%95%88%EC%A0%84%EC%84%B1%20%EC%A0%95%EB%B3%B4.pdf)도 참고하여,<br/>어떤 의약품이 신장에 해로운지 안내합니다. | <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-16_027.jpeg" width="25%" /> <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-16_028.jpeg" width="25%" /> |
+<div align="center">
+  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-16_027.jpeg" width="20%" /> 
+  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-16_028.jpeg" width="20%" />
+</div>
+
+|  | 
+ |
 | --- | --- |
 
 ---
