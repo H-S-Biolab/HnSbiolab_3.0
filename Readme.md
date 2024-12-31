@@ -89,13 +89,13 @@
 <table style="width:100%;">
   <tr>
     <!-- 왼쪽: 글씨 칸(폭 50%) -->
-    <td style="width:70%; vertical-align:top;">
+    <td style="vertical-align:top;">
       <strong>키트 검사 방법을 설명하고, 키트 검사를 실시합니다.</strong><br/>
       사용자가 키트의 이미지를 Scala Wox의 API에 전송하면,<br/>
       키트 검사의 결과를 반환받아서 DB에 저장합니다.
     </td>
     <!-- 오른쪽: 이미지 칸(폭 50%) -->
-    <td style="vertical-align:top;">
+    <td style="width:30%; vertical-align:top;">
       <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_015.jpeg" width="25%" />
       <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_016.jpeg" width="25%" />
     </td>
