@@ -95,7 +95,7 @@
       키트 검사의 결과를 반환받아서 DB에 저장합니다.
     </td>
     <!-- 오른쪽: 이미지 칸(폭 50%) -->
-    <td style="width:50%; vertical-align:top;">
+    <td style="vertical-align:top;">
       <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_015.jpeg" width="25%" />
       <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_016.jpeg" width="25%" />
     </td>
@@ -114,7 +114,7 @@
       불러온 결과를 분석하고,<br/>
       신장병과 긴밀히 연관된 기저질환·성인병 분석도 진행할 예정입니다.
     </td>
-    <td style="width:50%; vertical-align:top;">
+    <td style="vertical-align:top;">
       <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_023.jpeg" width="25%" />
       <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_018.jpeg" width="25%" />
     </td>
@@ -130,7 +130,7 @@
       앱에서 혈액검사 결과를 기록하고,<br/>
       분석 결과를 제공합니다.
     </td>
-    <td style="width:50%; vertical-align:top;">
+    <td style="vertical-align:top;">
       <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_023.jpeg" width="25%" />
       <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_022.jpeg" width="25%" />
     </td>
@@ -144,7 +144,7 @@
     <td style="width:50%; vertical-align:top;">
       <strong>건강검진 및 혈액검사 기록을 통해<br/>사용자의 콩팥 기능을 종합 분석합니다.</strong>
     </td>
-    <td style="width:50%; vertical-align:top;">
+    <td style="vertical-align:top;">
       <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_006.jpeg" width="25%" />
       <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_009.jpeg" width="25%" />
     </td>
@@ -158,7 +158,7 @@
     <td style="width:50%; vertical-align:top;">
       <strong>콩팥 상태를 매일 체크할 수 있는<br/>6가지 항목을 제공하며,<br/>3개 이상 위험 신호 시 키트 검사를 유도합니다.</strong>
     </td>
-    <td style="width:50%; vertical-align:top;">
+    <td style="vertical-align:top;">
       <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_006.jpeg" width="25%" />
       <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_010.jpeg" width="25%" />
     </td>
@@ -179,7 +179,7 @@
       거리, 등급, 병원 종류 등의 필터가 제공되며,<br/>
       자주 찾는 병원은 즐겨찾기로 지정할 수 있습니다.
     </td>
-    <td style="width:50%; vertical-align:top;">
+    <td style="vertical-align:top;">
       <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_024.jpeg" width="25%" />
       <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_025.jpeg" width="25%" />
     </td>
