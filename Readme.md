@@ -86,9 +86,7 @@
 
 ### 1. 키트 검사
 
-키트 검사 방법을 설명하고, 키트 검사를 실시합니다.  
-사용자가 키트의 이미지를 Scala Wox의 API에 전송하면,  
-키트 검사의 결과를 반환받아서 DB에 저장합니다.
+키트 검사 방법을 설명하고, 키트 검사를 실시합니다. 사용자가 키트의 이미지를 Scala Wox의 API에 전송하면, 키트 검사의 결과를 반환받아서 DB에 저장합니다.
 
 <div align="center">
   <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_015.jpeg" width="20%" />
@@ -97,9 +95,7 @@
 
 ### 2. 건강검진 불러오기
 
-[Codef API의 건강검진 API](https://developer.codef.io/products/public/each/pp/nhis-health-check)를 통해  
-보건복지부에서 사용자의 건강검진 기록과 결과 PDF를 불러옵니다.  
-불러온 결과를 분석하고, 신장병과 긴밀히 연관된 기저질환·성인병 분석도 진행할 예정입니다.
+[Codef API의 건강검진 API](https://developer.codef.io/products/public/each/pp/nhis-health-check)를 통해 보건복지부에서 사용자의 건강검진 기록과 결과 PDF를 불러옵니다. 불러온 결과를 분석하고, 신장병과 긴밀히 연관된 기저질환·성인병 분석도 진행할 예정입니다.
 
 <div align="center">
   <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_023.jpeg" width="20%" />
@@ -108,8 +104,7 @@
 
 ### 3. 혈액검사 기록하기
 
-신장병 고위험군 혹은 환자는 정기적으로 혈액검사를 실시합니다.  
-앱에서 혈액검사 결과를 기록하고, 분석 결과를 제공합니다.
+신장병 고위험군 혹은 환자는 정기적으로 혈액검사를 실시합니다. 앱에서 혈액검사 결과를 기록하고, 분석 결과를 제공합니다.
 
 <div align="center">
   <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_023.jpeg" width="20%" />
@@ -118,8 +113,7 @@
 
 ### 4. 나의 콩팥 건강 분석
 
-건강검진 및 혈액검사 기록을 통해  
-사용자의 콩팥 기능을 종합 분석합니다.
+건강검진 및 혈액검사 기록을 통해 사용자의 콩팥 기능을 종합 분석합니다.
 
 <div align="center">
   <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_006.jpeg" width="20%" />
@@ -128,8 +122,7 @@
 
 ### 5. 데일리 체크
 
-콩팥 상태를 매일 체크할 수 있는 6가지 항목을 제공하며,  
-3개 이상 위험 신호가 감지되면 키트 검사를 유도합니다.
+콩팥 상태를 매일 체크할 수 있는 6가지 항목을 제공하며, 3개 이상 위험 신호가 감지되면 키트 검사를 유도합니다.
 
 <div align="center">
   <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_006.jpeg" width="20%" />
@@ -138,9 +131,7 @@
 
 ### 6. 투석 병원 검색
 
-[혈액투석 적정성 평가 등급](https://www.hira.or.kr/ra/hosp/getHealthMap.do?pgmid=HIRAA030002010000&WT.gnb=%EB%B3%91%EC%9B%90+%C2%B7+%EC%95%BD%EA%B5%AD%EC%B0%BE%EA%B8%B0#a)을 참고하여  
-주변 투석 병원을 검색할 수 있습니다. 거리, 등급, 병원 종류 등의 필터가 제공되며,  
-자주 찾는 병원은 즐겨찾기로 지정할 수 있습니다.
+[혈액투석 적정성 평가 등급](https://www.hira.or.kr/ra/hosp/getHealthMap.do?pgmid=HIRAA030002010000&WT.gnb=%EB%B3%91%EC%9B%90+%C2%B7+%EC%95%BD%EA%B5%AD%EC%B0%BE%EA%B8%B0#a)을 참고하여  주변 투석 병원을 검색할 수 있습니다. 거리, 등급, 병원 종류 등의 필터가 제공되며, 자주 찾는 병원은 즐겨찾기로 지정할 수 있습니다.
 
 <div align="center">
   <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_024.jpeg" width="20%" />
@@ -155,9 +146,6 @@
   <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-16_028.jpeg" width="20%" />
 </div>
 
-|  | 
- |
-| --- | --- |
 
 ---
 
