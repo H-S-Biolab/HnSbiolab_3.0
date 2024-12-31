@@ -24,7 +24,7 @@
 
 신장병은 초기에 증상이 거의 나타나지 않아 조기 진단이 어렵습니다. 하지만 신장 기능이 저하되면 심각한 건강 문제로 이어질 수 있으며, 말기 신부전으로 발전할 경우 투석이나 신장 이식이 필요하게 됩니다.
 
-2024 H&S biolab 산학 협력 프로젝트는 신장병 조기진단 키트 연동 어플을 개발을 통해 신장병을 더 일찍 발견하고 치료함으로써, 장기적인 합병증을 예방하고 환자의 삶의 질을 향상시키는 것을 목표로 합니다.
+2024 H&S biolab 산학 협력 프로젝트는 신장병 조기진단 키트 연동 어플을 개발해, 신장병을 더 일찍 발견하고 치료함으로써 장기적인 합병증을 예방하고 환자의 삶의 질을 향상시키는 것을 목표로 합니다.
 
 </aside>
 
@@ -34,16 +34,10 @@
 
 ## 😃팀원
 
-| **팀원 정보**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | <img src="readme_assets/team_example.png" width="25%" /> |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| **팀원 정보**                                                                                                                                                                                                                                                                                               | <img src="readme_assets/team_example.png" width="25%" /> |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
 | <table>
-  <thead>
-    <tr>
-      <th>이름</th>
-      <th>1학기 업무</th>
-      <th>2학기 업무</th>
-    </tr>
-  </thead>
+  <!-- 헤더(이름, 1학기 업무, 2학기 업무) 삭제 -->
   <tbody>
     <tr>
       <td>곽태윤</td>
@@ -86,45 +80,38 @@
 
 ### 1. 키트 검사
 
-| **키트 검사 방법을 설명하고, 키트 검사를 실시합니다.**<br/>사용자가 키트의 이미지를 Scala Wox의 API에 전송하면,<br/>키트 검사의 결과를 반환받아서 DB에 저장합니다. | <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_015.jpeg" width="25%" /><br/><img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_016.jpeg" width="25%" /> |
+| **키트 검사 방법을 설명하고, 키트 검사를 실시합니다.**<br/>사용자가 키트의 이미지를 Scala Wox의 API에 전송하면,<br/>키트 검사의 결과를 반환받아서 DB에 저장합니다. | <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_015.jpeg" width="25%" /> <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_016.jpeg" width="25%" /> |
 | --- | --- |
 
 ### 2. 건강검진 불러오기
 
-| **[Codef API의 건강검진 API](https://developer.codef.io/products/public/each/pp/nhis-health-check)를 통해<br/>보건복지부에서 사용자의 건강검진 기록과 결과 PDF를 불러옵니다.**<br/>불러온 결과를 통해 분석을 제공하고,<br/>신장병과 긴밀히 연관된 기저질환·성인병 분석도 진행할 예정입니다. | <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_023.jpeg" width="25%" /><br/><img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_018.jpeg" width="25%" /> |
+| **[Codef API의 건강검진 API](https://developer.codef.io/products/public/each/pp/nhis-health-check)를 통해<br/>보건복지부에서 사용자의 건강검진 기록과 결과 PDF를 불러옵니다.**<br/>불러온 결과를 분석하고,<br/>신장병과 긴밀히 연관된 기저질환·성인병 분석도 진행할 예정입니다. | <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_023.jpeg" width="25%" /> <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_018.jpeg" width="25%" /> |
 | --- | --- |
 
 ### 3. 혈액검사 기록하기
 
-| **신장병 고위험군 혹은 환자는<br/>정기적으로 혈액검사를 실시합니다.**<br/>앱에서 혈액검사 결과를 기록하고,<br/>분석 결과를 제공합니다. | <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_023.jpeg" width="25%" /><br/><img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_022.jpeg" width="25%" /> |
+| **신장병 고위험군 혹은 환자는<br/>정기적으로 혈액검사를 실시합니다.**<br/>앱에서 혈액검사 결과를 기록하고,<br/>분석 결과를 제공합니다. | <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_023.jpeg" width="25%" /> <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_022.jpeg" width="25%" /> |
 | --- | --- |
 
 ### 4. 나의 콩팥 건강 분석
 
-| **건강검진 및 혈액검사 기록을 통해<br/>사용자의 콩팥 기능을 종합 분석합니다.** | <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_006.jpeg" width="25%" /><br/><img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_009.jpeg" width="25%" /> |
+| **건강검진 및 혈액검사 기록을 통해<br/>사용자의 콩팥 기능을 종합 분석합니다.** | <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_006.jpeg" width="25%" /> <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_009.jpeg" width="25%" /> |
 | --- | --- |
 
 ### 5. 데일리 체크
 
-| **콩팥 상태를 매일 체크할 수 있는<br/>6가지 항목을 제공하며,<br/>3개 이상 위험 신호 시 키트 검사를 유도합니다.** | <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_006.jpeg" width="25%" /><br/><img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_010.jpeg" width="25%" /> |
+| **콩팥 상태를 매일 체크할 수 있는<br/>6가지 항목을 제공하며,<br/>3개 이상 위험 신호 시 키트 검사를 유도합니다.** | <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_006.jpeg" width="25%" /> <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_010.jpeg" width="25%" /> |
 | --- | --- |
 
 ### 6. 투석 병원 검색
 
-[혈액투석 적정성 평가 등급](https://www.hira.or.kr/ra/hosp/getHealthMap.do?pgmid=HIRAA030002010000&WT.gnb=%EB%B3%91%EC%9B%90+%C2%B7+%EC%95%BD%EA%B5%AD%EC%B0%BE%EA%B8%B0#a) 정보와 위치 정보를 통해 주변 병원을 검색하는 기능입니다.  
-거리, 등급, 병원 종류 등의 필터를 통해 다양한 검색이 가능하고, 자주 찾는 병원은 즐겨찾기로 지정할 수 있습니다.
-
-![KakaoTalk_Photo_2024-12-31-14-13-15 024.jpeg](readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_024.jpeg)
-
-![KakaoTalk_Photo_2024-12-31-14-13-15 025.jpeg](readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_025.jpeg)
+| **[혈액투석 적정성 평가 등급](https://www.hira.or.kr/ra/hosp/getHealthMap.do?pgmid=HIRAA030002010000&WT.gnb=%EB%B3%91%EC%9B%90+%C2%B7+%EC%95%BD%EA%B5%AD%EC%B0%BE%EA%B8%B0#a)을 참고**하여<br/>주변 투석 병원을 검색할 수 있습니다.<br/>거리, 등급, 병원 종류 등의 필터가 제공되며,<br/>자주 찾는 병원은 즐겨찾기로 지정할 수 있습니다. | <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_024.jpeg" width="25%" /> <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_025.jpeg" width="25%" /> |
+| --- | --- |
 
 ### 7. 의약품 검색
 
-[식품의약품안전처 의약품 데이터](https://www.data.go.kr/data/15075057/openapi.do)를 기반으로 의약품을 검색합니다.  
-[대한약사협회 제공 신장병 위해 성분 정보](https://www.health.kr/Menu.PharmReview/_uploadfiles/Safety%20Report_%EC%8B%A0%EC%9E%A5%EC%97%90%20%EC%98%81%ED%96%A5%EC%9D%84%20%EB%AF%B8%EC%B9%98%EB%8A%94%20%EC%95%BD%EB%AC%BC%20%EC%95%88%EC%A0%84%EC%84%B1%20%EC%A0%95%EB%B3%B4.pdf)를 참고하여, 신장에 해로운 의약품을 안내합니다.
-
-![KakaoTalk_Photo_2024-12-31-14-13-16 027.jpeg](readme_assets/KakaoTalk_Photo_2024-12-31-14-13-16_027.jpeg)
-![KakaoTalk_Photo_2024-12-31-14-13-16 028.jpeg](readme_assets/KakaoTalk_Photo_2024-12-31-14-13-16_028.jpeg)
+| **[식품의약품안전처 의약품 데이터](https://www.data.go.kr/data/15075057/openapi.do)를 바탕**으로<br/>의약품을 검색할 수 있습니다.<br/>[대한약사협회 신장병 위해 성분 정보](https://www.health.kr/Menu.PharmReview/_uploadfiles/Safety%20Report_%EC%8B%A0%EC%9E%A5%EC%97%90%20%EC%98%81%ED%96%A5%EC%9D%84%20%EB%AF%B8%EC%B9%98%EB%8A%94%20%EC%95%BD%EB%AC%BC%20%EC%95%88%EC%A0%84%EC%84%B1%20%EC%A0%95%EB%B3%B4.pdf)도 제공하여,<br/>어떤 의약품이 신장에 해로운지 안내합니다. | <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-16_027.jpeg" width="25%" /> <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-16_028.jpeg" width="25%" /> |
+| --- | --- |
 
 ---
 
