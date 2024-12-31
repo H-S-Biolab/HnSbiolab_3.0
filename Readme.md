@@ -89,7 +89,7 @@
 <table style="width:100%;">
   <tr>
     <!-- 왼쪽: 글씨 칸(폭 50%) -->
-    <td style="width:50%; vertical-align:top;">
+    <td style="width:70%; vertical-align:top;">
       <strong>키트 검사 방법을 설명하고, 키트 검사를 실시합니다.</strong><br/>
       사용자가 키트의 이미지를 Scala Wox의 API에 전송하면,<br/>
       키트 검사의 결과를 반환받아서 DB에 저장합니다.
@@ -106,7 +106,7 @@
 
 <table style="width:100%;">
   <tr>
-    <td style="width:50%; vertical-align:top;">
+    <td style="width:70%; vertical-align:top;">
       <strong>
         <a href="https://developer.codef.io/products/public/each/pp/nhis-health-check">Codef API의 건강검진 API</a>를 통해<br/>
         보건복지부에서 사용자의 건강검진 기록과 결과 PDF를 불러옵니다.
@@ -125,7 +125,7 @@
 
 <table style="width:100%;">
   <tr>
-    <td style="width:50%; vertical-align:top;">
+    <td style="width:70%; vertical-align:top;">
       <strong>신장병 고위험군 혹은 환자는<br/>정기적으로 혈액검사를 실시합니다.</strong><br/>
       앱에서 혈액검사 결과를 기록하고,<br/>
       분석 결과를 제공합니다.
@@ -141,7 +141,7 @@
 
 <table style="width:100%;">
   <tr>
-    <td style="width:50%; vertical-align:top;">
+    <td style="width:70%; vertical-align:top;">
       <strong>건강검진 및 혈액검사 기록을 통해<br/>사용자의 콩팥 기능을 종합 분석합니다.</strong>
     </td>
     <td style="vertical-align:top;">
@@ -155,7 +155,7 @@
 
 <table style="width:100%;">
   <tr>
-    <td style="width:50%; vertical-align:top;">
+    <td style="width:70%; vertical-align:top;">
       <strong>콩팥 상태를 매일 체크할 수 있는<br/>6가지 항목을 제공하며,<br/>3개 이상 위험 신호 시 키트 검사를 유도합니다.</strong>
     </td>
     <td style="vertical-align:top;">
@@ -169,7 +169,7 @@
 
 <table style="width:100%;">
   <tr>
-    <td style="width:50%; vertical-align:top;">
+    <td style="width:70%; vertical-align:top;">
       <strong>
         <a href="https://www.hira.or.kr/ra/hosp/getHealthMap.do?pgmid=HIRAA030002010000&WT.gnb=%EB%B3%91%EC%9B%90+%C2%B7+%EC%95%BD%EA%B5%AD%EC%B0%BE%EA%B8%B0#a">
           혈액투석 적정성 평가 등급
