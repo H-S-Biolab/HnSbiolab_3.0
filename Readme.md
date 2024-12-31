@@ -11,10 +11,6 @@
 
 </aside>
 
----
-
-- ❗중요
-  1. [Codef API key 2월23일 만료 예정!](https://www.notion.so/Codef-API-16d120bb7330804f979ff25f2778b97d?pvs=21)
 
 # 1. 프로젝트 개요
 
@@ -29,7 +25,8 @@
 2024 H&S biolab 산학 협력 프로젝트는  
 **신장병 조기진단 키트 연동 어플**을 개발해,  
 신장병을 더 일찍 발견하고 치료함으로써  
-장기적인 합병증을 예방하고 환자의 삶의 질을 향상시키는 것을 목표로 합니다.
+장기적인 합병증을 예방하고 환자의 삶의 질을  
+향상시키는 것을 목표로 합니다.
 
 </aside>
 
@@ -91,11 +88,13 @@
 
 <table style="width:100%;">
   <tr>
+    <!-- 왼쪽: 글씨 칸(폭 50%) -->
     <td style="width:50%; vertical-align:top;">
       <strong>키트 검사 방법을 설명하고, 키트 검사를 실시합니다.</strong><br/>
       사용자가 키트의 이미지를 Scala Wox의 API에 전송하면,<br/>
       키트 검사의 결과를 반환받아서 DB에 저장합니다.
     </td>
+    <!-- 오른쪽: 이미지 칸(폭 50%) -->
     <td style="width:50%; vertical-align:top;">
       <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_015.jpeg" width="25%" />
       <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_016.jpeg" width="25%" />
@@ -231,4 +230,3 @@
 
 </aside>
 
-[문서화 작업 업무 분배(임시)](https://www.notion.so/16d120bb733080c0a890ff0f9329ed41?pvs=21)
