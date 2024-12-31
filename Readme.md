@@ -151,7 +151,7 @@
 
 ## 👤 사용자 다이어그램
 
-![Frame 2332.png](readme_assets/Frame.png)
+![Frame.png](readme_assets/Frame.png)
 
 ## 🏗️ 앱 구성도
 
