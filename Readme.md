@@ -5,6 +5,7 @@
 <aside>
 
 - **🇬 Github**: [https://github.com/H-S-Biolab](https://github.com/H-S-Biolab)
+- **🇳 Notion**: [https://cookie-process-67f.notion.site/](https://cookie-process-67f.notion.site/)
 - ** App Store:** 
 - **▶ Google Play Store:**
 - **🇫 Figma:** [https://www.figma.com/design/LcEW0oalIVIRfc4RlFhhjx/2024_SKKU_H%26Sbiolab_%EC%82%B0%ED%95%99%ED%98%91%EB%A0%A5%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=1650-3879&p=f&t=jijAtUDrlEp4BoYg-0](https://www.figma.com/design/LcEW0oalIVIRfc4RlFhhjx/2024_SKKU_H%26Sbiolab_%EC%82%B0%ED%95%99%ED%98%91%EB%A0%A5%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=1650-3879&p=f&t=jijAtUDrlEp4BoYg-0)
