@@ -159,7 +159,162 @@
 
 ![구성도.png](readme_assets/arch.png)
 
-## 🔎 프론트엔드 & 백엔드 설명
+# 📂 프론트엔드 디렉터리
+
+<aside>
+
+## 전체 디렉터리 구조
+
+- 디렉터리 구조
+    
+    ```jsx
+    /assets
+      └── [fonts                                   --> 폰트 상세](https://www.notion.so/assets-fonts-16d120bb73308052b589c3924ba7c80e?pvs=21)
+    /src
+      ├── components
+      │   ├── ModalComponent.js
+      │   ├── dataUtils.js
+      │   ├── devButton.js
+      │   ├── [homeContext.js                      --> 홈 관리 context 상세](https://www.notion.so/components-homeContext-16d120bb733080849650ef84d12897af?pvs=21)
+      ├── images
+      ├── [navigation                              --> 네비게이션 상세](https://www.notion.so/navigation-16d120bb73308053b4e2e6ff238119c1?pvs=21)
+      │   ├── navigation_with_tabs_styles.js
+      │   ├── navigation_with_tabs.js
+      │   ├── navigation_without_tabs_styles.js
+      │   └── navigation_without_tabs.js
+      ├── screens
+      │   ├── [examin_record                       --> 검진기록 탭 상세](https://www.notion.so/screens-examine_record-16d120bb733080c092a3c8533e6548ba?pvs=21)
+      │   │   ├── authentication_1
+      │   │   ├── authentication_2
+      │   │   ├── authentication_3
+      │   │   ├── blood_test_specifics
+      │   │   ├── health_checkup_specifics
+      │   │   ├── index.js
+      │   │   └── styles.js
+      │   ├── [home                                --> 홈 탭 상세](https://www.notion.so/screens-home-16d120bb73308018a9b7ca7b86787544?pvs=21)
+      │   │   ├── daily_check
+      │   │   ├── kidney_info
+      │   │   ├── manage_account
+      │   │   ├── my_profile
+      │   │   ├── set_push_alarm
+      │   │   ├── index.js
+      │   │   └── styles.js
+      │   ├── [hospital                            --> 투석병원검색 탭 상세](https://www.notion.so/screens-hospital-16d120bb7330806d951ddddb04938f4e?pvs=21)
+      │   │   ├── assets
+      │   │   ├── FilterModal.js
+      │   │   ├── index.js
+      │   │   └── styles.js
+      │   ├── [kit                                 --> 키트 탭 상세](https://www.notion.so/screens-kit-16d120bb733080a588dff0c3eeb50b46?pvs=21)
+      │   │   ├── kit_guide_1
+      │   │   ├── kit_guide_2
+      │   │   ├── kit_test
+      │   │   ├── index.js
+      │   │   └── styles.js
+      │   ├── [login                               --> 로그인 탭 상세](https://www.notion.so/screens-login-16d120bb73308061956cf9466eb7fc3e?pvs=21)
+      │   │   ├── firebaseConfig.js
+      │   │   ├── get_kidney_info.js
+      │   │   ├── get_underlying_disease_info.js
+      │   │   ├── get_usr_info.js
+      │   │   ├── index.js
+      │   │   └── login.js
+      │   └── [medicine                            --> 의약품검색 탭 상세](https://www.notion.so/screens-medicine-16d120bb7330803b8edfdb2a38fdba46?pvs=21)
+      │       ├── medicine_specifics
+      │       ├── index.js
+      │       └── styles.js
+      ├── [theme.js                                --> 앱 테마 & 폰트 상세](https://www.notion.so/src-theme-js-16d120bb73308048b7a1efe68aafc418?pvs=21)
+    [/App.js                                       --> 앱 시작 네비게이션 상세](https://www.notion.so/navigation-16d120bb73308053b4e2e6ff238119c1?pvs=21)
+    ```
+    
+
+## 요약
+
+- 핵심 디렉터리 구조
+    - 로그인 화면: src/screens/login
+    - 홈 탭: src/screens/home
+    - 키트 탭: src/screens/kit
+    - 검진 탭: src/screens/examin_record
+    - 병원검색 탭: src/screens/hospital
+    - 의약품 검색 탭:  src/screens/medicine
+    - 페이지 네비게이션: src/navigation
+</aside>
+
+---
+
+# 🪜 네비게이션 구조
+
+<aside>
+
+하단바가 있는 화면의 경우 **navigation_with_tabs.js** 네비게이션에서 불러오고
+
+하단바가 없는 화면의 경우 **navigation_without_tabs.js** 네비게이션에서 불러와서
+
+**App.js** 네비게이션에서 위의 두 네비게이션을 불러온다. 
+
+- 전체 구조
+    
+    ```jsx
+    App.js
+    ├── Login1: src/screens/login/index.js
+    ├── Login2: src/screens/login/login.js
+    ├── GetUserInfo: src/screens/login/get_usr_info.js
+    ├── GetKidneyInfo: src/screens/login/get_kidney_info.js
+    ├── GetUnderlyingDiseaseInfo: src/screens/login/get_underlying_disease_info.js
+    ├── BottomNavigation: navigation_with_tabs.js
+    │   ├── Home: src/screens/home/index.js
+    │   ├── Kit: src/screens/kit/index.js
+    │   ├── Examin_record: src/screens/examin_record/index.js
+    │   ├── Hospital: src/screens/hospital/index.js
+    │   ├── Medicine: src/screens/medicine/index.js
+    ├── NavigationWithoutTabs: navigation_without_tabs.js
+    │   ├── authentication_1: src/screens/examin_record/authentication_1/index.js
+    │   ├── authentication_2: src/screens/examin_record/authentication_2/index.js
+    │   ├── authentication_3: src/screens/examin_record/authentication_3/index.js
+    │   ├── blood_test_specifics: src/screens/examin_record/blood_test_specifics/index.js
+    │   ├── blood_test_input: src/screens/examin_record/blood_test_input/index.js
+    │   ├── medicine_specifics: src/screens/medicine/medicine_specifics/index.js
+    │   ├── kit_guide_1: src/screens/kit/kit_guide_1/index.js
+    │   ├── kit_guide_2: src/screens/kit/kit_guide_2/index.js
+    │   ├── kit_test: src/screens/kit/kit_test/index.js
+    │   ├── daily_check: src/screens/home/daily_check/index.js
+    │   ├── my_profile: src/screens/home/my_profile/index.js
+    │   ├── manage_account: src/screens/home/manage_account/index.js
+    │   ├── set_push_alarm: src/screens/home/set_push_alarm/index.js
+    │   ├── kidney_info: src/screens/home/kidney_info/index.js
+    │   ├── HealthCheckupSpecifics: src/screens/examin_record/health_checkup_specifics/index.js
+    
+    ```
+    
+</aside>
+
+---
+
+# ⚠️ 프론트엔드 개발 규칙 (Code Convention)
+
+<aside>
+
+- 개발 규칙
+    1. Component와 Styles 구분
+        
+        모든 화면은 index.js와 syles.js를 분리한다. (로그인 화면 제외)
+        
+    2. theme.js로 폰트 및 테마 적용
+        
+        styles.js에서 theme.js를 import해서 폰트와 테마를 적용한다.
+        
+    3. 모든 컴포넌트 상대 크기 개발
+        
+        ```jsx
+        const width_ratio = Dimensions.get('screen').width / 390;
+        const height_ratio = Dimensions.get('screen').height / 844;
+        ```
+        
+        위의 코드를 통해 styles.js에서 모든 컴포넌트를 상대 크기로 구성한다. 
+        
+</aside>
+
+---
+
+## 🔎 프론트엔드 & 백엔드 세부 설명
 
 <aside>
 
