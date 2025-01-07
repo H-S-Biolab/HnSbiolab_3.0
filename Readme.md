@@ -333,9 +333,8 @@
 - [백엔드 프로세스 & 포트 설명](https://www.notion.so/16d120bb73308088b755dcad38e01745?pvs=21)
 - [AWS 계정 관리](https://www.notion.so/AWS-16d120bb73308010a7fadfc4e527be23?pvs=21)
 - [Codef API 키 관리](https://www.notion.so/Codef-API-16d120bb7330804f979ff25f2778b97d?pvs=21)
-- [의약품 DB 설명](https://www.notion.so/DB-16d120bb7330808084a1d874c7887355?pvs=21)
+- [의약품 DB 설명](https://www.notion.so/DB-16d120bb7330808084a1d874c7887355)
 - [투석병원 DB 설명](https://www.notion.so/DB-16d120bb733080fdaabfe0409af6a5fc?pvs=21)
-- [사용자 DB 설명](https://www.notion.so/DB-16d120bb7330802ea48bf4ef973d247b?pvs=21)
 
 </aside>
 
